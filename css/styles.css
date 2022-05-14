@@ -1,0 +1,26 @@
+/* general styles for the container and all the grid items */
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+.content-single-post{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 1.5rem;
+}
+/* styles for border card */
+.card .card-footer{
+    border-width: 0px;
+    border-color: transparent;
+    background-color: white;
+}
+/* style for card in general */
+.card{
+    border-width: 0px;
+    border-color: transparent;
+}
