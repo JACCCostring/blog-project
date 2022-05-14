@@ -56,8 +56,9 @@ function createSinglePost(singlePost){
                     <h4 class='card-subtitle text-muted mb-4'>${singlePost.subTitle}</h4> 
                     <p class='card-text'>${singlePost.intro}</p> 
                     <p class='text-muted d-flex align-items-center'>
-                    <span class='material-icons mb-4'>person</span>
-                    ${"Written by "+singlePost.author}
+                    <span class='material-icons'>person</span>
+                    ${'Written by '+singlePost.author}
+                    <span class='mb-4'></span>
                     </p>
                     <div class='card-footer'> 
                     <span>${preperTags[0]}</span> 
